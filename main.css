@@ -1,3 +1,8 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .header {
     font-family: Oswald;
 }
@@ -57,4 +62,34 @@ li {
   font-size: 16px;
   letter-spacing: 1.5px;
 }
+.headline {
+  width: 620px;
+  margin-left: 160px;
+  font-family: Oswald;
+  font-size: 40px;
+}
+.footer {
+  background-color: #002447;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font: oswald;
+}
+.footer ul {
+  display: inline;
+  position: absolute;
+  color: white;
+}
+.footer li {
+  border-right: 1px;
+  border-color: white;
 
+}
+.posts {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  white-space: nowrap;
+}
