@@ -1,4 +1,4 @@
-.body {
+#body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -29,9 +29,16 @@
   letter-spacing: 2px;
   color: #002447;
 }
+#h2 {
+  margin: 0;
+}
 li {
   list-style-type: none;
   float: left;
+}
+.author img {
+  width: 6%;
+  height: auto;
 }
 .about-search {
   display: inline-block;
@@ -61,6 +68,7 @@ li {
   padding-left: 12px;
   font-size: 16px;
   letter-spacing: 1.5px;
+  vertical-align: 65%;
 }
 .headline {
   width: 620px;
@@ -68,14 +76,18 @@ li {
   font-family: Oswald;
   font-size: 40px;
 }
-.footer {
-  background-color: #002447;
-  height: 100px;
-  width: 100%;
-  position: absolute;
+#footer {
+  position: relative;
   bottom: 0;
   left: 0;
   font: oswald;
+}
+.footer {
+  display: inline-block;
+  font: oswald;
+  background-color: #002447;
+  height: 100px;
+  width: 100%;
 }
 .footer ul {
   display: inline;
@@ -85,7 +97,6 @@ li {
 .footer li {
   border-right: 1px;
   border-color: white;
-
 }
 .posts {
   display: inline-block;
