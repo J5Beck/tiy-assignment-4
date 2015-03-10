@@ -76,6 +76,7 @@ li {
   font-family: Oswald;
   font-size: 40px;
 }
+
 #footer {
   position: relative;
   bottom: 0;
@@ -103,4 +104,12 @@ li {
   float: left;
   padding: 0;
   white-space: nowrap;
+}
+.posts ul {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: -4px;
+}
+.posts li {
+  
 }
