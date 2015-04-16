@@ -76,6 +76,81 @@ li {
   font-family: Oswald;
   font-size: 40px;
 }
+.features {
+  width: 1300px;
+  height: auto;
+  clear: both;
+  margin: 68px auto 0 auto;
+}
+
+.features h2 {
+  color: rgb(8, 52, 82);
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 45px 0 45px 0;
+  text-align: center;
+} 
+
+.box1 {
+  height: 330px;
+  width: 325px;
+  float: left;
+  position: relative;
+}
+
+.box2 {
+  height: 330px;
+  width: 325px;
+  float: left;
+  position: relative;
+}
+
+.box3 {
+  height: 330px;
+  width: 325px;
+  float: left;
+  position: relative;
+}
+
+.box4 {
+  height: 330px;
+  width: 325px;
+  float: left;
+  position: relative;
+}
+
+.overlay {
+  background-color: #63a0ce;
+  opacity: .6;
+  height: 330px;
+  width: 325px;
+  position: absolute;
+}
+
+.overlay:hover {
+  background-color: #83452;
+  opacity: 0;
+  height: 330px;
+  width: 325px;
+  position: absolute;
+}
+
+.overlay:hover h2 {
+  color: #ffffff;
+}
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  bottom: -10%;
+  left: 5%;
+}
 
 #footer {
   position: relative;
@@ -83,6 +158,7 @@ li {
   left: 0;
   font: oswald;
 }
+
 .footer {
   display: inline-block;
   font: oswald;
@@ -90,6 +166,17 @@ li {
   height: 100px;
   width: 100%;
 }
+
+.footer img {
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+
+.footer small {
+  display: inline-block;
+}
+
 .footer ul {
   display: inline;
   position: absolute;
@@ -98,18 +185,7 @@ li {
 .footer li {
   border-right: 1px;
   border-color: white;
+  padding-right: 5px;
+
 }
-.posts {
-  display: inline-block;
-  float: left;
-  padding: 0;
-  white-space: nowrap;
-}
-.posts ul {
-  display: flex;
-  padding-left: 0;
-  margin-bottom: -4px;
-}
-.posts li {
-  
-}
+
